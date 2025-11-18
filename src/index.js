@@ -4,6 +4,10 @@
 // veggie = "carrot"
 // veggie = "onion"
 
+let veggie = 'carrot';
+veggie = 'onion';
+console.log(veggie);
+
 //
 //
 // =========================
@@ -15,6 +19,21 @@
 
 // dog = {"name": "Sprinkles", "age": 3}
 // dog["is_friendly"] = True
+
+let animals = ['tiger', 'panda', 'raccoon'];
+animals.push('possum');
+console.log(animals);
+
+let dog = {
+    name: 'Sprinkles',
+    age: 3,
+};
+
+dog['is_friendly'] = true;
+console.log(dog);
+
+
+
 
 //
 //
